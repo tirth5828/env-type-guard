@@ -1,12 +1,12 @@
 {
   "name": "env-type-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny, Zod-like schema validator for environment variables with defaults and type-narrowed output.",
   "license": "MIT",
   "author": "Tirth Joshi",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tirth5828/safe-env.git"
+    "url": "git+https://github.com/tirth5828/env-type-guard.git"
   },
   "keywords": [
     "env",
@@ -43,7 +43,7 @@
     "test": "test"
   },
   "bugs": {
-    "url": "https://github.com/tirth5828/safe-env/issues"
+    "url": "https://github.com/tirth5828/env-type-guard/issues"
   },
-  "homepage": "https://github.com/tirth5828/safe-env#readme"
+  "homepage": "https://github.com/tirth5828/env-type-guard#readme"
 }
