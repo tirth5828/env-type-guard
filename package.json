@@ -1,0 +1,49 @@
+{
+  "name": "env-type-guard",
+  "version": "1.0.0",
+  "description": "Tiny, Zod-like schema validator for environment variables with defaults and type-narrowed output.",
+  "license": "MIT",
+  "author": "Tirth Joshi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirth5828/safe-env.git"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "validation",
+    "schema",
+    "typescript",
+    "runtime",
+    "config"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc && copyfiles dist/index.js dist/index.cjs",
+    "test": "node --test",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.9.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/tirth5828/safe-env/issues"
+  },
+  "homepage": "https://github.com/tirth5828/safe-env#readme"
+}
